@@ -1,0 +1,29 @@
+/* Main slider */
+@media only screen and (max-width: 600px) {
+    .splide {
+        height: 400px !important;
+    }
+
+}
+
+.splide__arrow {
+    background-color: #ccc !important;
+    top: 50% !important;
+}
+
+.splide__arrow svg {
+    fill: #000 !important;
+}
+
+.splide__pagination__page {
+    background-color: #fcfcfc4f !important;
+}
+
+.splide {
+    height: 400px !important;
+}
+
+.splide:not(.is-overflow) .splide__pagination {
+    display: flex !important;
+}
+
